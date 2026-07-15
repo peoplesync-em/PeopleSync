@@ -23,11 +23,8 @@ header{
 }
 
 
-.logo{
-
-    font-size:28px;
-    font-weight:bold;
-
+.logo img{
+    width:150px;
 }
 
 
