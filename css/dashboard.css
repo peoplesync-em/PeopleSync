@@ -1,0 +1,186 @@
+:root{
+
+    --primary:#8DB8FF;
+    --secondary:#F78FB3;
+    --background:#F8FAFC;
+    --text:#24324A;
+    
+    }
+    
+    
+    *{
+    
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+    
+    }
+    
+    
+    
+    body{
+    
+    display:flex;
+    
+    background:var(--background);
+    
+    color:var(--text);
+    
+    }
+    
+    
+    
+    .sidebar{
+    
+    width:250px;
+    
+    height:100vh;
+    
+    background:white;
+    
+    padding:25px;
+    
+    box-shadow:5px 0 20px rgba(0,0,0,.05);
+    
+    }
+    
+    
+    
+    .brand{
+    
+    display:flex;
+    
+    align-items:center;
+    
+    gap:10px;
+    
+    margin-bottom:40px;
+    
+    }
+    
+    
+    .brand img{
+    
+    width:45px;
+    
+    }
+    
+    
+    
+    .sidebar li{
+    
+    list-style:none;
+    
+    padding:15px;
+    
+    margin-bottom:10px;
+    
+    border-radius:10px;
+    
+    cursor:pointer;
+    
+    }
+    
+    
+    
+    .sidebar li:hover{
+    
+    background:#DCEBFF;
+    
+    }
+    
+    
+    
+    .main{
+    
+    flex:1;
+    
+    padding:30px;
+    
+    }
+    
+    
+    
+    header{
+    
+    display:flex;
+    
+    justify-content:space-between;
+    
+    }
+    
+    
+    
+    .cards{
+    
+    display:grid;
+    
+    grid-template-columns:repeat(4,1fr);
+    
+    gap:20px;
+    
+    margin-top:30px;
+    
+    }
+    
+    
+    
+    .card{
+    
+    background:white;
+    
+    padding:25px;
+    
+    border-radius:20px;
+    
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+    
+    }
+    
+    
+    
+    .card h3{
+    
+    font-size:32px;
+    
+    color:#8DB8FF;
+    
+    }
+    
+    
+    
+    .content-box{
+    
+    background:white;
+    
+    margin-top:30px;
+    
+    padding:25px;
+    
+    border-radius:20px;
+    
+    }
+    
+    
+    
+    table{
+    
+    width:100%;
+    
+    margin-top:20px;
+    
+    border-collapse:collapse;
+    
+    }
+    
+    
+    td,th{
+    
+    padding:15px;
+    
+    border-bottom:1px solid #eee;
+    
+    text-align:left;
+    
+    }
