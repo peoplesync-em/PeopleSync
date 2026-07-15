@@ -70,18 +70,16 @@ header{
 .logo h2{
     font-size:28px;
     font-weight:700;
-    letter-spacing:.3px;
-
-    background:linear-gradient(
-        135deg,
-        #F78FB3 0%,
-        #D7B7F8 50%,
-        #8DB8FF 100%
-    );
-
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
 }
+
+.logo .pink{
+    color:#F78FB3;
+}
+
+.logo .blue{
+    color:#8DB8FF;
+}
+    
 
 /* ===== NAVBAR ===== */
 
